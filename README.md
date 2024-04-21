@@ -1,2 +1,2 @@
 # InterProcessCommunication
-Lab5 Unix-like OS
+Interaction of processes. Parallelism. Message exchange through the port. Calculate f(x) * g(x) using 2 auxiliary processes: one calculates f(x) and the other calculates g(x). The main program performs I/O and the * operation. Use the message exchange between processes through the port (Socket). Implement a variant of blocking message exchange operations, that is, with the expectation of message processing and response to the message (and "freezing" the process at this time). The functions f(x) and g(x) "do not know anything about each other" and cannot communicate with each other.
